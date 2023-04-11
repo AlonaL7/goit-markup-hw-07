@@ -1,4 +1,5 @@
-/* .section {
+@media screen and (min-width: 1200px) {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -79,11 +80,13 @@
   .current.menu-link:focus::after{
     background-color: #404BBF;
     border-radius: 2px;
-  } */
-/* 
+  } 
   .logo {
     margin-right: 76px;
-  } */
+  }
+}
+
+
   .section-portfolio {
     margin-top: 96px;
     width: 586;
