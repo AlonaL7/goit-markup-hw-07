@@ -71,7 +71,9 @@
   } 
 
   .team-list {
-    width: calc ((100% - 24px) / 2) ;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 24px) / 2) ;
   }
 
 
