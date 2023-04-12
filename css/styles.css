@@ -58,7 +58,7 @@ body {
     max-width: 768px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container{
     max-width: 1158px;
   }
@@ -95,7 +95,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--praimary-text-color);
-  /* margin-right: 76px; */
 }
 
 .studio-btn {
@@ -121,7 +120,9 @@ body {
   background-color: var(--accent-color);
 }
 
-/* .main-title {
+
+
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -236,12 +237,7 @@ body {
 .doing-card:not(:nth-child(3)) {
   margin-right: 24px;
 }
-.team-list {
-  display: flex;
-}
-.team-card:not(:nth-child(4)) {
-  margin-right: 24px;
-}
+
 .team-list-item {
   display: flex;
   justify-content: center;
@@ -263,6 +259,8 @@ body {
 .team-list-link:focus {
   background-color: #404bbf;
 }
+
+
 .customers-list-item {
   display: flex;
   justify-content: center;
@@ -619,4 +617,4 @@ border-radius: 2px;
 .modal-form-submit:hover,
 .modal-form-submit:focus{
   background-color: var(--accent-color);
-} */
+}

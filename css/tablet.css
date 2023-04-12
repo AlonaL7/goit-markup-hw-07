@@ -1,4 +1,30 @@
 @media screen and (min-width: 768px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+    .main-header .container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .main-header {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #e7e9fc;
+      }
+      .main-nav {
+        display: flex;
+        align-items: center;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+      }
+      .logo {
+        margin-right: 120px;
+      }
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -43,4 +69,10 @@
     background-color: #404BBF;
     border-radius: 2px;
   } 
+
+  .team-list {
+    width: calc ((100% - 24px) / 2) ;
+  }
+
+
 }

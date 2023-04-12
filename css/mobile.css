@@ -13,6 +13,10 @@
     padding-bottom: 24px;
 }
 @media screen and (max-width: 767px){
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
     .mobile-menu-open{
         background-color: transparent;
         border: none;
@@ -64,7 +68,6 @@
             padding-left: 40px;
             padding-bottom: 40px;
         }
-}
 
 .menu-link {
     font-weight: 500;
@@ -132,3 +135,9 @@ color: #434455;
     gap: 56px;
     margin-top: 48px;
   }
+
+  .team-list-item {
+    margin-bottom: 72px;
+  }
+
+}
