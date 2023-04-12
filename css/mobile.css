@@ -136,8 +136,7 @@ color: #434455;
     margin-top: 48px;
   }
 
-  .team-list-item {
-    margin-bottom: 72px;
+  .team-list {
+    margin-botom: 72px;
   }
-
 }

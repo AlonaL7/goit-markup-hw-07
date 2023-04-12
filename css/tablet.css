@@ -70,11 +70,14 @@
     border-radius: 2px;
   } 
 
+  .team-card {
+    width: calc((100% - 24px) / 2) ;
+  
+  }
   .team-list {
     display: flex;
     flex-wrap: wrap;
-    width: calc((100% - 24px) / 2) ;
-    
+gap: 24px;
   }
 
 
