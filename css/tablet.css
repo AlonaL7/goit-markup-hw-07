@@ -70,6 +70,46 @@
     border-radius: 2px;
   } 
 
+
+  .main-title {
+    font-size: 56px;
+  line-height: 1.07;
+    margin-bottom: 36px;
+    width: 496px;
+  }
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .hero{
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+     url(../images/tabl-1x-hero-bg-img.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero{
+      background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+       url(../images/tabl-2x-hero-bg-img.jpg);
+    }
+}
+.title-strategies {
+  font-weight: 700;
+  font-size: 34px;
+}
+.description-stategies {
+  font-weight: 500;
+}
+.strategies-card {
+  width: calc((100% - 24px) / 2) ;
+}
+  
   .team-card {
     width: calc((100% - 24px) / 2) ;
   
