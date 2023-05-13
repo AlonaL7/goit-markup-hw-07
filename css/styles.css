@@ -272,9 +272,7 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
-.footer-p {
-  width: 264px;
-}
+
 .logo-footer {
   font-family: "Raleway";
   font-weight: 800;
@@ -296,12 +294,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.social-section {
-  display: flex;
-}
-.social-media {
-  margin-left: 120px;
-}
+
 .social-title {
   font-family: "Roboto";
   font-style: normal;
@@ -325,7 +318,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
@@ -340,14 +333,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-left: 80px;
 margin-bottom: 16px;
 }
-.footer-form{
-  margin-left: 80px;
-  display: flex;
- gap: 24px;
-}
+
 .footer-form-input{
   width: 264px;
   height: 40px;
@@ -387,8 +375,8 @@ color: #FFFFFF;
   background-color: #4d5ae5;
   cursor: pointer;
   display: flex;
- justify-content: center;
- align-items: center;
+    justify-content: center;
+    align-items: center;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

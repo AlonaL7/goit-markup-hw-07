@@ -73,8 +73,12 @@
   margin: 0;
   width: 264px;
 }
+.strategies-list{
+  display: flex;
+  gap: 24px;
+}
 .strategies-card {
-  width: calc((100% - 24px) / 4) ;
+  width: calc((100% - 24px*3) / 4) ;
 }
 
 /* .strategies-list {
@@ -114,6 +118,28 @@
     justify-content: center;
     gap: 24px;
   }
+
+  .footer-p {
+    width: 264px;
+  }
+  .social-media {
+    margin-left: 120px;
+  }
+  .social-section {
+    display: flex;
+  }
+  .footer-form-title{
+    margin-left: 80px;
+  }
+  .footer-form{
+    margin-left: 80px;
+  }
+
+  .footer-form{
+    display: flex;
+   gap: 24px;
+  }
+ 
   
 }
 
