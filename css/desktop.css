@@ -81,12 +81,6 @@
   width: calc((100% - 24px*3) / 4) ;
 }
 
-/* .strategies-list {
-  display: flex;
-}
-.strategies-card:not(:nth-child(4)) {
-  margin-right: 24px;
-} */
   .doing-sectoin {
     display: block;
     }
@@ -96,13 +90,6 @@
     .doing-card:not(:nth-child(3)) {
       margin-right: 24px;
     }
-  /* .team-list {
-    display: flex;
-  }
-  .team-card:not(:nth-child(4)) {
-    margin-right: 24px;
-  }
-  */
 
   .team-card {
     width: calc((100% - 24px) / 4) ;
@@ -118,7 +105,12 @@
     justify-content: center;
     gap: 24px;
   }
-
+  .customers-item {
+    width: calc((100% - 24px*6) / 6) ;
+  }
+.section-cont{
+  width: 1128px;
+}
   .footer-p {
     width: 264px;
   }
@@ -127,22 +119,18 @@
   }
   .social-section {
     display: flex;
+    flex-wrap: nowrap;
+    width: 1128px;
   }
   .footer-form-title{
     margin-left: 80px;
   }
   .footer-form{
     margin-left: 80px;
-  }
-
-  .footer-form{
     display: flex;
-   gap: 24px;
-  }
- 
   
 }
-
+}
 
 
   .section-portfolio {

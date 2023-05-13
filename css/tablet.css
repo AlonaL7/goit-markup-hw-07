@@ -124,13 +124,35 @@
     flex-wrap: wrap;
 gap: 24px;
   }
+  .section-cont{
+    width: 582px;
+  }
+  .customers-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 24px*2) / 3) ;
+  }
 
+  .footer-p{
+    width: 264px;
+  }
+  .footer-form{
+    display: flex;
+  }
+  .footer-form-submit{
+   margin-left: 24px;
+  
+  }
   .social-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     column-gap: 24px;
     row-gap: 72px;
+    width: 582px;
   }
 
  

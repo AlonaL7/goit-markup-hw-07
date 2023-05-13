@@ -189,8 +189,16 @@ color: #434455;
   .customers-list-link {
     width: 190px;
   }
-  .customers-item {
+  .customers-list-item {
+    display: flex;
+    flex-wrap: wrap;
+  gap: 24px;
+  }
+    .customers-item {
     width: calc((100% - 24px) / 2) ;
+  }
+  .section-cont{
+    width: 392px;
   }
   .footer{
     text-align: center;
@@ -200,6 +208,9 @@ color: #434455;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .social-section{
+    width: 396px;
   }
   .social-title{
     margin-top: 72px;
