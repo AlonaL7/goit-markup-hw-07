@@ -48,7 +48,20 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* .container.adaptive {
+  max-width: 320px;
+}
+
 @media screen and (min-width: 480px) {
+  .container.adaptive {
+    max-width: 428px;
+  }
+  .team-card{
+    width: 264px;
+  }
+} */
+@media screen and (min-width: 480px) {
+
   .container{
     max-width: 428px;
   }
@@ -70,7 +83,7 @@ body {
   .menu-address{
     display: none;
   } 
-  .doing-sectoin{
+  .doing-none{
     display: none;
   }
   .strategies-icon{
@@ -84,7 +97,7 @@ body {
   .mobile-menu-open{
     display: none;
   }
-  .doing-sectoin{
+  .doing-none{
     display: none;
   }
   .strategies-icon{
@@ -153,7 +166,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
+.info-list{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .title {
   font-weight: 500;
   font-size: 20px;
@@ -161,7 +177,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--praimary-text-color);
   text-align: center;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 .title-strategies {
@@ -214,7 +229,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
 }
 
 .team-list-link {

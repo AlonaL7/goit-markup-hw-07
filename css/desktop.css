@@ -60,6 +60,7 @@
   font-weight: 400;
 }
 .strategies-icon {
+  display: block;
   background-color: #f4f4fd;
   border-radius: 4px;
   padding: 24px 100px;
@@ -80,9 +81,12 @@
 .strategies-card {
   width: calc((100% - 24px*3) / 4) ;
 }
-
+.doing-none
+{display: block;
+}
   .doing-sectoin {
     display: block;
+    padding-top: 0;
     }
     .doing-list {
       display: flex;
@@ -120,7 +124,8 @@
   .social-section {
     display: flex;
     flex-wrap: nowrap;
-    width: 1128px;
+    margin-left: auto;
+    max-width: 1128px;
   }
   .footer-form-title{
     margin-left: 80px;
