@@ -156,6 +156,9 @@ row-gap: 72px;
     row-gap: 72px;
     max-width: 582px;
   }
-
+  .modal{
+    width: 408px;
+    height: 586px;
+  }
  
 }
