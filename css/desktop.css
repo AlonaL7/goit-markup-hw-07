@@ -14,7 +14,9 @@
   .addres-item:not(:last-child) {
     margin-right: 40px;
   }
-  
+  .menu-link{
+    margin-right: 0;
+  }
   .menu-item:not(:last-child) {
     margin-right: 40px;
   }
@@ -133,7 +135,6 @@
   .footer-form{
     margin-left: 80px;
     display: flex;
-  
 }
 }
 
